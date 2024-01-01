@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ท่องเที่ยวที่รวมรวมสถานที่สวยๆในประเทศไทย</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <script src="https://kit.fontawesome.com/df26bd9708.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="Btn-top" title="ขึ้นไปด้านบนกดที่นี่">ขึ้นไปด้านบนกดที่นี่</button>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="logo">
+                <h2>LOGO</h2>
+            </div>
+            <div class="menu">
+                <ul class="flex menu-item">
+                    <li class="item" title="home" data-target="hader1"><a href="/">หน้าหลัก</a></li>
+                    <li class="item" title="travel" data-target="travel"><a href="#travel">สถานที่</a></li>
+                    <li class="item" title="contack" data-target="contack"><a href="#contack">ติดต่อ</a></li>
+                    <li class="item" title="service" data-target="hader1"><a href="#service">บริการ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="hader1" id="hader1">
+            <div class="content-left">
+                <div class="title-content">
+                    <h2>สถานที่ท่องเที่ยวในประเทศไทย</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores error facere cupiditate optio facilis voluptatum non officia quibusdam iste eos.</p>
+                    <button>ดูเพิ่มเติม</button>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="box-right">
+                    <h2>ในประเทศไทยมีสถานที่สวยๆเยอะเลย</h2>
+                </div>
+                <div class="logo-con-right">
+                    <img src="/images/logo-right-con.png" alt="logo-right-con">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="page2" id="travel">
+        <h2 class="title-page2">สถานที่ท่องเที่ยวในอุบล</h2>
+        <div class="content-pages2">
+            <div class="box-page2 zoomable">
+                <img src="/images/ubon1.jpg" alt="box-pages2">
+                <h2>นํ้าตกแกงลำดวนอุบล</h2>
+                <p>
+                    แก่งลำดวน เป็น <br>ที่เที่ยวธรรมชาติ อีกแห่งในจังหวัดอุบลราชธานี <br>ตั้งอยู่ที่บ้านหนองขอน <br>ตำบลโดมประดิษฐ์... 
+                </p>
+            </div>
+
+            <div class="box-page2 zoomable">
+                <img src="/images/ubon2.jpg" alt="box-pages2">
+                <h2>สกายวอล์คเขื่อนสิรินธร</h2>
+                <p>ตั้งอยู่ <br> ตำบล คำเขื่อนแก้ว <br> อำเภอ สิรินธร อุบลราชธานี</p>
+            </div>
+
+            <div class="box-page2 zoomable">
+                <img src="/images/ubon3.jpg" alt="box-pages2">
+                <h2>น้ำตกห้วยหลวง ภูจองนายอย</h2>
+                <p>น้ำตกห้วยหลวง <br> หรืออีกชื่อเรียกคือ น้ำตกบักเตว ตั้งอยู่ใน <br> อุทยานแห่งชาติภูจอง-นายอย ตำบลนาจะหลวย <br>อำเภอนาจะหลวย จังหวัดอุบลราชธานี <br>เป็นน้ำตกขนาดใหญ่เกิดจากลำธารห้วยหลวง</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="contack">
+        <h2 class="form-contack">ติดต่อ</h2>
+        <form action="" class="contack-form">
+            <div class="form-guonp">
+                <label for="name">ชื่อผู้ติดต่อ</label>
+                <input type="text" name="name" id="name" autocomplete="off">
+            </div>
+
+            <div class="form-guonp">
+                <label for="em">อีเมล</label>
+                <input type="email" name="email" id="email" autocomplete="off">
+            </div>
+
+            <div class="form-guonp">
+                <label for="ta">ชื่อผู้ติดต่อ</label>
+                <textarea name="ta" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-guonp">
+                <input type="submit" value="ส่งข้อความ">
+            </div>
+        </form>
+    </section>
+
+    <section class="service" id="service">
+        <div class="section-service">
+            <h2>บริการ | service</h2>
+        </div>
+        <div class="service-contents">
+            <div class="service-item">
+                <h2><i class="bi bi-alarm"></i></h2>
+                <h2 class="title-servie">รวดเร็วทันใจ</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deserunt eligendi excepturi.</p>
+            </div>
+            <div class="service-item">
+                <h2><i class="bi bi-bag-heart"></i></h2>
+                <h2 class="title-servie">ปลอดภัย</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deserunt eligendi excepturi.</p>
+            </div>
+            <div class="service-item">
+                <h2><i class="bi bi-currency-bitcoin"></i></h2>
+                <h2 class="title-servie">ราคาถูก</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deserunt eligendi excepturi.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="logo-footer">
+                <h2>LOGO</h2>
+            </div>
+            <div class="menu-footer">
+                <ul>
+                    <li class="item" data-target="hader1"><a href="#">หน้าหลัก</a></li>
+                    <li class="item" data-target="travel"><a href="#travel">สถานที่</a></li>
+                    <li class="item" data-target="contack"><a href="#contack">ติดต่อ</a></li>
+                    <li class="item" data-target="hader1"><a href="#service">บริการ</a></li>
+                </ul>
+                <div class="copyright">
+                    <p><i class="fa-solid fa-copyright"></i> NIGHTKUN 2018 - 2024 เป็นผู้ออกแบบหน้าเว็บนี้</p>
+                </div>
+            </div>
+
+            <div class="links-footer">
+                <a href="#facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#youtube"><i class="bi bi-youtube"></i></a>
+                <a href="#tiktok"><i class="bi bi-tiktok"></i></a>
+                <a href="#email"><i class="bi bi-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
